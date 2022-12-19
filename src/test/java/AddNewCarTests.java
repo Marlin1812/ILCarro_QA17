@@ -45,5 +45,6 @@ public class AddNewCarTests extends TestBase {
 
     }
 
+
 //    @AfterMethod
 }

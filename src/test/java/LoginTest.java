@@ -28,7 +28,7 @@ public class LoginTest extends TestBase{
 
     @AfterMethod
     public void postCondition(){
-        app.getUser().pause(3);
+        app.getUser().pause(3000);
         app.getUser().clickOkButton();
     }
 }
