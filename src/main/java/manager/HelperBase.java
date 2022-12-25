@@ -1,9 +1,9 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
+import java.io.File;
+import java.nio.file.Files;
 import java.util.concurrent.TimeUnit;
 
 public class HelperBase {
@@ -43,4 +43,12 @@ public class HelperBase {
     public String getText(By locator){
         return wd.findElement(locator).getText();
     }
+
+//    public void takeScreenShot(String Link){
+//
+//        File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+//        File screenshot = new File(Link);
+//
+//        Files.copy(tmp, screenshot);
+//    }
 }

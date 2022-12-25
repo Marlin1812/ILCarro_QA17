@@ -5,6 +5,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
+
 public class AddNewCarTests extends TestBase {
 
     @BeforeMethod
@@ -35,6 +37,8 @@ public class AddNewCarTests extends TestBase {
                 .carRegNumber("100-200-" + i)
                 .price("150")
                 .build();
+
+        logger.info("addNewCarPositive.class");
 
         app.getUser().pause(3000);
         app.getCar().openCarForm();

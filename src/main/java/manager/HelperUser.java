@@ -73,6 +73,9 @@ public class HelperUser extends HelperBase{
         click(By.xpath("//a[text()=' Logout ']"));
     }
 
+    public void openStartForm(){click(By.xpath("//a[@class ='logo']"));
+    }
+
     public void openLoginForm(){
         click(By.xpath("//a[text()=' Log in ']"));
     }
@@ -106,20 +109,21 @@ public class HelperUser extends HelperBase{
 ////        click(By.cssSelector("label[for='terms-of-use']"));
 //        JavascriptExecutor js = (JavascriptExecutor) wd;
 //        js.executeScript("document.querySelector('#terms-of-use').click();");
+//        pause(3000);
         checkPolicy();
     }
 
     public void checkPolicy(){
         // variant 1:
-        //        click(By.cssSelector("label[for='terms-of-use']"));
+                click(By.cssSelector("label[for='terms-of-use']"));
         // variant 2:
 //        JavascriptExecutor js = (JavascriptExecutor) wd;
 //        js.executeScript("document.querySelector('#terms-of-use').click();");
-        // variant 3:
-        Rectangle rect = wd.findElement(By.cssSelector(".checkbox-container")).getRect();
-        int x = rect.getX() + 5;
-        int y = rect.getY() + 1/4 * rect.getHeight();
-        Actions actions = new Actions(wd);
-        actions.moveByOffset(x, y).click().perform();
+       // variant 3:
+//        Rectangle rect = wd.findElement(By.cssSelector(".checkbox-container")).getRect();
+//        int x = rect.getX() + 5;
+//        int y = rect.getY() + 1/4 * rect.getHeight();
+//        Actions actions = new Actions(wd);
+//        actions.moveByOffset(x, y).click().perform();
     }
 }

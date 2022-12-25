@@ -1,9 +1,16 @@
 package manager;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public class ApplicationManager {
+
+
+  Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
     WebDriver wd;
     HelperUser user;
