@@ -27,8 +27,9 @@ public class RegistrationTest extends TestBase{
                 .withEmail("joe" + i + "@mail.com")
                 .withPassword("$Asdf1234");
 
+        logger.info("registrationPositiveTest with email: " + user.getEmail()
+                + " password: " + user.getPassword());
 
-//        logger.info("registrationPositiveTest with email: " + user.getEmail() + " password: " + user.getPassword());
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
         app.getUser().pause(3000);

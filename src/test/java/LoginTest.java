@@ -1,9 +1,12 @@
+import manager.NGListener;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(NGListener.class)
 public class LoginTest extends TestBase{
 
     @BeforeMethod
