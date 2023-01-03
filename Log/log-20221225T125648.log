@@ -1,0 +1,97 @@
+12:56:53 INFO  TestBase - Start test registrationNegativeTestUserExists
+12:56:53 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+12:56:53 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+12:56:53 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+12:56:53 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+12:56:54 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+12:56:54 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+12:56:54 INFO  manager.MyListener - Start searching element by locator By.id: name
+12:56:54 INFO  manager.MyListener - The element with locator By.id: name is found
+12:56:54 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+12:56:54 INFO  manager.MyListener - The element with locator By.id: lastName is found
+12:56:54 INFO  manager.MyListener - Start searching element by locator By.id: email
+12:56:54 INFO  manager.MyListener - The element with locator By.id: email is found
+12:56:55 INFO  manager.MyListener - Start searching element by locator By.id: password
+12:56:55 INFO  manager.MyListener - The element with locator By.id: password is found
+12:56:55 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+12:56:55 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+12:56:58 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+12:56:58 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+12:57:01 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='dialog-container']
+12:57:01 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='dialog-container'] is found
+12:57:01 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='dialog-container']
+12:57:01 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='dialog-container'] is found
+12:57:04 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='button']
+12:57:04 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='button'] is found
+12:57:04 INFO  TestBase - The enf of test registrationNegativeTestUserExists
+12:57:04 INFO  TestBase - Start test registrationNegativeTestWithIncorrectEmail
+12:57:04 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+12:57:04 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+12:57:04 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+12:57:04 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+12:57:05 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+12:57:05 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+12:57:05 INFO  manager.MyListener - Start searching element by locator By.id: name
+12:57:05 INFO  manager.MyListener - The element with locator By.id: name is found
+12:57:05 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+12:57:05 INFO  manager.MyListener - The element with locator By.id: lastName is found
+12:57:05 INFO  manager.MyListener - Start searching element by locator By.id: email
+12:57:05 INFO  manager.MyListener - The element with locator By.id: email is found
+12:57:05 INFO  manager.MyListener - Start searching element by locator By.id: password
+12:57:05 INFO  manager.MyListener - The element with locator By.id: password is found
+12:57:06 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+12:57:06 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+12:57:09 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='error']
+12:57:09 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='error'] is found
+12:57:09 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='error']
+12:57:09 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='error'] is found
+12:57:09 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectEmail
+12:57:09 INFO  TestBase - Start test registrationNegativeTestWithIncorrectPassword
+12:57:09 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+12:57:09 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+12:57:09 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+12:57:09 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+12:57:09 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+12:57:09 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+12:57:09 INFO  manager.MyListener - Start searching element by locator By.id: name
+12:57:09 INFO  manager.MyListener - The element with locator By.id: name is found
+12:57:09 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+12:57:09 INFO  manager.MyListener - The element with locator By.id: lastName is found
+12:57:10 INFO  manager.MyListener - Start searching element by locator By.id: email
+12:57:10 INFO  manager.MyListener - The element with locator By.id: email is found
+12:57:10 INFO  manager.MyListener - Start searching element by locator By.id: password
+12:57:10 INFO  manager.MyListener - The element with locator By.id: password is found
+12:57:10 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+12:57:10 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+12:57:15 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='error']
+12:57:15 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='error'] is found
+12:57:15 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='error']
+12:57:15 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='error'] is found
+12:57:15 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectPassword
+12:57:15 INFO  TestBase - Start test registrationPositiveTest
+12:57:15 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+12:57:15 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+12:57:15 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+12:57:15 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+12:57:16 INFO  TestBase - registrationPositiveTest with email: joe3436@mail.com password: $Asdf1234
+12:57:16 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+12:57:16 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+12:57:16 INFO  manager.MyListener - Start searching element by locator By.id: name
+12:57:16 INFO  manager.MyListener - The element with locator By.id: name is found
+12:57:16 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+12:57:16 INFO  manager.MyListener - The element with locator By.id: lastName is found
+12:57:16 INFO  manager.MyListener - Start searching element by locator By.id: email
+12:57:16 INFO  manager.MyListener - The element with locator By.id: email is found
+12:57:16 INFO  manager.MyListener - Start searching element by locator By.id: password
+12:57:16 INFO  manager.MyListener - The element with locator By.id: password is found
+12:57:17 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+12:57:17 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+12:57:20 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+12:57:20 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+12:57:23 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='dialog-container']
+12:57:23 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='dialog-container'] is found
+12:57:23 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='dialog-container']
+12:57:23 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='dialog-container'] is found
+12:57:26 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='button']
+12:57:26 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='button'] is found
+12:57:26 INFO  TestBase - The enf of test registrationPositiveTest

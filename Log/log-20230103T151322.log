@@ -1,0 +1,6 @@
+15:13:22 INFO  manager.NGListener - Start of the test addNewCarPositive
+15:13:22 INFO  manager.NGListener - Start of the test loginSuccess
+15:13:22 INFO  manager.NGListener - Start of the test registrationNegativeTestUserExists
+15:13:22 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectEmail
+15:13:22 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectPassword
+15:13:22 INFO  manager.NGListener - Start of the test registrationPositiveTest

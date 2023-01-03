@@ -1,0 +1,42 @@
+12:55:51 INFO  TestBase - Start test addNewCarPositive
+12:55:51 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+12:55:51 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+12:55:51 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Log in ']
+12:55:51 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Log in '] is found
+12:55:51 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='email']
+12:55:51 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='email'] is found
+12:55:51 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='password']
+12:55:51 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='password'] is found
+12:55:52 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+12:55:52 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+12:55:55 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='button']
+12:55:55 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='button'] is found
+12:55:58 INFO  manager.MyListener - Start searching element by locator By.id: 1
+12:55:58 INFO  manager.MyListener - The element with locator By.id: 1 is found
+12:56:01 INFO  manager.MyListener - Start searching element by locator By.id: pickUpPlace
+12:56:01 INFO  manager.MyListener - The element with locator By.id: pickUpPlace is found
+12:56:04 INFO  manager.MyListener - Start searching element by locator By.cssSelector: div.pac-item
+12:56:04 INFO  manager.MyListener - The element with locator By.cssSelector: div.pac-item is found
+12:56:07 INFO  manager.MyListener - Start searching element by locator By.id: make
+12:56:07 INFO  manager.MyListener - The element with locator By.id: make is found
+12:56:07 INFO  manager.MyListener - Start searching element by locator By.id: model
+12:56:07 INFO  manager.MyListener - The element with locator By.id: model is found
+12:56:08 INFO  manager.MyListener - Start searching element by locator By.id: year
+12:56:08 INFO  manager.MyListener - The element with locator By.id: year is found
+12:56:08 INFO  manager.MyListener - Start searching element by locator By.id: fuel
+12:56:08 INFO  manager.MyListener - The element with locator By.id: fuel is found
+12:56:08 INFO  manager.MyListener - Start searching element by locator By.xpath: .//option[@value = "Petrol"]
+12:56:08 INFO  manager.MyListener - The element with locator By.xpath: .//option[@value = "Petrol"] is found
+12:56:08 INFO  manager.MyListener - Start searching element by locator By.id: seats
+12:56:08 INFO  manager.MyListener - The element with locator By.id: seats is found
+12:56:08 INFO  manager.MyListener - Start searching element by locator By.id: class
+12:56:08 INFO  manager.MyListener - The element with locator By.id: class is found
+12:56:08 INFO  manager.MyListener - Start searching element by locator By.id: serialNumber
+12:56:08 INFO  manager.MyListener - The element with locator By.id: serialNumber is found
+12:56:09 INFO  manager.MyListener - Start searching element by locator By.id: price
+12:56:09 INFO  manager.MyListener - The element with locator By.id: price is found
+12:56:09 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+12:56:09 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+12:56:09 INFO  TestBase - Car added with: 
+Car(address=Tel Aviv, make=KIA, model=Sportage, year=2020, fuel=Petrol, seats=4, carClass=5, carRegNumber=100-200-3355, price=150)
+12:56:09 INFO  TestBase - The enf of test addNewCarPositive

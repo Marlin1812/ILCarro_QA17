@@ -1,0 +1,102 @@
+13:28:13 INFO  TestBase - Start test addNewCarPositive
+13:28:13 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+13:28:13 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+13:28:13 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Log in ']
+13:28:13 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Log in '] is found
+13:28:13 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='email']
+13:28:13 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='email'] is found
+13:28:14 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='password']
+13:28:14 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='password'] is found
+13:28:14 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+13:28:14 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+13:28:17 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='button']
+13:28:17 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='button'] is found
+13:28:17 INFO  manager.NGListener - Start of the test addNewCarPositive
+13:28:20 INFO  manager.MyListener - Start searching element by locator By.id: 1
+13:28:20 INFO  manager.MyListener - The element with locator By.id: 1 is found
+13:28:23 INFO  manager.MyListener - Start searching element by locator By.id: pickUpPlace
+13:28:23 INFO  manager.MyListener - The element with locator By.id: pickUpPlace is found
+13:28:27 INFO  manager.MyListener - Start searching element by locator By.cssSelector: div.pac-item
+13:28:27 INFO  manager.MyListener - The element with locator By.cssSelector: div.pac-item is found
+13:28:30 INFO  manager.MyListener - Start searching element by locator By.id: make
+13:28:30 INFO  manager.MyListener - The element with locator By.id: make is found
+13:28:30 INFO  manager.MyListener - Start searching element by locator By.id: model
+13:28:30 INFO  manager.MyListener - The element with locator By.id: model is found
+13:28:30 INFO  manager.MyListener - Start searching element by locator By.id: year
+13:28:30 INFO  manager.MyListener - The element with locator By.id: year is found
+13:28:31 INFO  manager.MyListener - Start searching element by locator By.id: fuel
+13:28:31 INFO  manager.MyListener - The element with locator By.id: fuel is found
+13:28:31 INFO  manager.MyListener - Start searching element by locator By.xpath: .//option[@value = "Petrol"]
+13:28:31 INFO  manager.MyListener - The element with locator By.xpath: .//option[@value = "Petrol"] is found
+13:28:31 INFO  manager.MyListener - Start searching element by locator By.id: seats
+13:28:31 INFO  manager.MyListener - The element with locator By.id: seats is found
+13:28:31 INFO  manager.MyListener - Start searching element by locator By.id: class
+13:28:31 INFO  manager.MyListener - The element with locator By.id: class is found
+13:28:31 INFO  manager.MyListener - Start searching element by locator By.id: serialNumber
+13:28:32 INFO  manager.MyListener - The element with locator By.id: serialNumber is found
+13:28:32 INFO  manager.MyListener - Start searching element by locator By.id: price
+13:28:32 INFO  manager.MyListener - The element with locator By.id: price is found
+13:28:32 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+13:28:32 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+13:28:32 INFO  TestBase - Car added with: 
+Car(address=Tel Aviv, make=KIA, model=Sportage, year=2020, fuel=Petrol, seats=4, carClass=5, carRegNumber=100-200-1697, price=150)
+13:28:32 INFO  manager.NGListener - Success test addNewCarPositive
+13:28:32 INFO  TestBase - The enf of test addNewCarPositive
+13:28:32 INFO  TestBase - Start test loginSuccess
+13:28:32 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+13:28:32 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+13:28:32 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+13:28:32 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+13:28:32 INFO  manager.NGListener - Start of the test loginSuccess
+13:28:32 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Log in ']
+13:28:32 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Log in '] is found
+13:28:33 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='email']
+13:28:33 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='email'] is found
+13:28:33 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='password']
+13:28:33 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='password'] is found
+13:28:33 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+13:28:33 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+13:28:33 INFO  manager.NGListener - Success test loginSuccess
+13:28:36 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='button']
+13:28:36 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='button'] is found
+13:28:37 INFO  manager.MyListener - Something went wrong!
+13:28:37 INFO  manager.MyListener - element click intercepted: Element <button _ngcontent-hsv-c36="" class="negative-button ng-star-inserted" ng-reflect-_mat-dialog-close="[object Object]" type="button" style="">...</button> is not clickable at point (528, 362). Other element would receive the click: <div _ngcontent-hsv-c36="" class="buttons-container">...</div>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Lurie036\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1dccdc504ffe5927897045807166084
+13:28:37 INFO  manager.MyListener - element click intercepted: Element <button _ngcontent-hsv-c36="" class="negative-button ng-star-inserted" ng-reflect-_mat-dialog-close="[object Object]" type="button" style="">...</button> is not clickable at point (528, 362). Other element would receive the click: <div _ngcontent-hsv-c36="" class="buttons-container">...</div>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Lurie036\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1dccdc504ffe5927897045807166084
+13:28:38 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1717.png
+13:28:38 INFO  TestBase - Start test registrationNegativeTestUserExists
+13:28:38 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+13:28:38 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+13:28:38 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+13:28:38 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+13:28:39 INFO  manager.MyListener - Something went wrong!
+13:28:39 INFO  manager.MyListener - element click intercepted: Element <a _ngcontent-hsv-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (896, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Lurie036\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1dccdc504ffe5927897045807166084
+13:28:39 INFO  manager.MyListener - element click intercepted: Element <a _ngcontent-hsv-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (896, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Lurie036\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1dccdc504ffe5927897045807166084
+13:28:40 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1719.png
+13:28:40 INFO  manager.NGListener - Start of the test registrationNegativeTestUserExists
+13:28:40 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectEmail
+13:28:40 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectPassword
+13:28:40 INFO  manager.NGListener - Start of the test registrationPositiveTest

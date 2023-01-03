@@ -1,0 +1,40 @@
+15:15:00 INFO  manager.ApplicationManager - Tests on CHROME
+15:15:04 INFO  TestBase - Start test addNewCarPositive
+15:15:09 INFO  manager.NGListener - Start of the test addNewCarPositive
+15:15:24 INFO  manager.NGListener - Failure test org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-qfq-c116="" formcontrolname="serialNumber" id="serialNumber" type="text" ng-reflect-name="serialNumber" ng-reflect-label="[object HTMLLabelElement]" class="ng-untouched ng-pristine ng-invalid"> is not clickable at point (248, 506). Other element would receive the click: <span _ngcontent-qfq-c116="" class="required-marker">...</span>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Lurie036\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57351}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05d516853365e9009b542004dcf85825
+15:15:24 INFO  TestBase - The enf of test addNewCarPositive
+15:15:24 INFO  TestBase - Start test loginSuccess
+15:15:24 INFO  manager.NGListener - Start of the test loginSuccess
+15:15:25 INFO  manager.NGListener - Success test loginSuccess
+15:15:29 INFO  TestBase - The enf of test loginSuccess
+15:15:29 INFO  TestBase - Start test registrationNegativeTestUserExists
+15:15:29 INFO  manager.NGListener - Start of the test registrationNegativeTestUserExists
+15:15:40 INFO  manager.NGListener - Success test registrationNegativeTestUserExists
+15:15:40 INFO  TestBase - The enf of test registrationNegativeTestUserExists
+15:15:40 INFO  TestBase - Start test registrationNegativeTestWithIncorrectEmail
+15:15:40 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectEmail
+15:15:47 INFO  manager.NGListener - Failure test org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Lurie036\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57351}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05d516853365e9009b542004dcf85825
+*** Element info: {Using=xpath, value=//div[@class='error']}
+15:15:47 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectEmail
+15:15:47 INFO  TestBase - Start test registrationNegativeTestWithIncorrectPassword
+15:15:48 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectPassword
+15:15:54 INFO  manager.NGListener - Success test registrationNegativeTestWithIncorrectPassword
+15:15:54 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectPassword
+15:15:54 INFO  TestBase - Start test registrationPositiveTest
+15:15:55 INFO  manager.NGListener - Start of the test registrationPositiveTest
+15:15:55 INFO  TestBase - registrationPositiveTest with email: joe955@mail.com password: $Asdf1234
+15:16:05 INFO  manager.NGListener - Success test registrationPositiveTest
+15:16:05 INFO  TestBase - The enf of test registrationPositiveTest

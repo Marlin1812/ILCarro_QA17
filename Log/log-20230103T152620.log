@@ -1,0 +1,40 @@
+15:26:27 INFO  manager.ApplicationManager - Tests on FIREFOX
+15:26:32 INFO  TestBase - Start test addNewCarPositive
+15:26:36 INFO  manager.NGListener - Start of the test addNewCarPositive
+15:26:53 INFO  TestBase - Car added with: 
+Car(address=Tel Aviv, make=KIA, model=Sportage, year=2020, fuel=Petrol, seats=4, carClass=5, carRegNumber=100-200-1596, price=150)
+15:26:53 INFO  manager.NGListener - Success test addNewCarPositive
+15:26:53 INFO  TestBase - The enf of test addNewCarPositive
+15:26:53 INFO  TestBase - Start test loginSuccess
+15:26:53 INFO  manager.NGListener - Start of the test loginSuccess
+15:26:53 INFO  manager.NGListener - Failure test org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Fsearch"> is not clickable at point (1079,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17280, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 55193af8-d52e-48c7-8fac-54c112cd084c
+15:26:57 INFO  TestBase - The enf of test loginSuccess
+15:26:57 INFO  TestBase - Start test registrationNegativeTestUserExists
+15:26:57 INFO  manager.NGListener - Start of the test registrationNegativeTestUserExists
+15:27:09 INFO  manager.NGListener - Success test registrationNegativeTestUserExists
+15:27:09 INFO  TestBase - The enf of test registrationNegativeTestUserExists
+15:27:09 INFO  TestBase - Start test registrationNegativeTestWithIncorrectEmail
+15:27:10 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectEmail
+15:27:15 INFO  manager.NGListener - Failure test org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='error']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17280, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 55193af8-d52e-48c7-8fac-54c112cd084c
+*** Element info: {Using=xpath, value=//div[@class='error']}
+15:27:15 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectEmail
+15:27:15 INFO  TestBase - Start test registrationNegativeTestWithIncorrectPassword
+15:27:16 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectPassword
+15:27:23 INFO  manager.NGListener - Success test registrationNegativeTestWithIncorrectPassword
+15:27:23 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectPassword
+15:27:23 INFO  TestBase - Start test registrationPositiveTest
+15:27:24 INFO  manager.NGListener - Start of the test registrationPositiveTest
+15:27:24 INFO  TestBase - registrationPositiveTest with email: joe1644@mail.com password: $Asdf1234
+15:27:36 INFO  manager.NGListener - Success test registrationPositiveTest
+15:27:36 INFO  TestBase - The enf of test registrationPositiveTest
