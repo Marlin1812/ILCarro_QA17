@@ -1,0 +1,246 @@
+18:28:22 INFO  manager.ApplicationManager - Tests on FIREFOX
+18:28:25 INFO  TestBase - Start test addNewCarPositive
+18:28:25 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+18:28:25 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+18:28:25 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Log in ']
+18:28:25 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Log in '] is found
+18:28:25 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='email']
+18:28:26 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='email'] is found
+18:28:26 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='password']
+18:28:26 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='password'] is found
+18:28:26 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+18:28:26 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+18:28:30 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='button']
+18:28:30 INFO  manager.MyListener - Something went wrong!
+18:28:30 INFO  manager.MyListener - Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//button[@type='button']}
+18:28:30 INFO  manager.MyListener - Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//button[@type='button']}
+18:28:30 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1710.png
+18:28:30 INFO  manager.NGListener - Start of the test addNewCarPositive
+18:28:30 INFO  TestBase - Start test loginSuccess
+18:28:30 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+18:28:30 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+18:28:30 INFO  manager.NGListener - Start of the test loginSuccess
+18:28:30 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Log in ']
+18:28:30 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Log in '] is found
+18:28:31 INFO  manager.MyListener - Start searching element by locator By.xpath: //input[@id='email']
+18:28:31 INFO  manager.MyListener - The element with locator By.xpath: //input[@id='email'] is found
+18:28:31 INFO  manager.MyListener - Something went wrong!
+18:28:31 INFO  manager.MyListener - Element <input id="email" class="ng-dirty ng-valid ng-touched" type="email"> is not clickable at point (1012,279) because another element <div class="login-registration-progress-container"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+18:28:31 INFO  manager.MyListener - Element <input id="email" class="ng-dirty ng-valid ng-touched" type="email"> is not clickable at point (1012,279) because another element <div class="login-registration-progress-container"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+18:28:31 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1711.png
+18:28:31 INFO  manager.NGListener - Failure test org.openqa.selenium.ElementClickInterceptedException: Element <input id="email" class="ng-dirty ng-valid ng-touched" type="email"> is not clickable at point (1012,279) because another element <div class="login-registration-progress-container"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+18:28:34 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='button']
+18:28:34 INFO  manager.MyListener - Something went wrong!
+18:28:34 INFO  manager.MyListener - Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//button[@type='button']}
+18:28:34 INFO  manager.MyListener - Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//button[@type='button']}
+18:28:35 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1714.png
+18:28:35 INFO  TestBase - Start test registrationNegativeTestUserExists
+18:28:35 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+18:28:35 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+18:28:35 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+18:28:35 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+18:28:36 INFO  manager.NGListener - Start of the test registrationNegativeTestUserExists
+18:28:36 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+18:28:36 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+18:28:36 INFO  manager.MyListener - Start searching element by locator By.id: name
+18:28:36 INFO  manager.MyListener - The element with locator By.id: name is found
+18:28:36 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+18:28:36 INFO  manager.MyListener - The element with locator By.id: lastName is found
+18:28:37 INFO  manager.MyListener - Start searching element by locator By.id: email
+18:28:37 INFO  manager.MyListener - The element with locator By.id: email is found
+18:28:37 INFO  manager.MyListener - Start searching element by locator By.id: password
+18:28:37 INFO  manager.MyListener - The element with locator By.id: password is found
+18:28:37 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+18:28:37 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+18:28:41 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+18:28:41 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+18:28:44 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='dialog-container']
+18:28:44 INFO  manager.MyListener - Something went wrong!
+18:28:44 INFO  manager.MyListener - Unable to locate element: //div[@class='dialog-container']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+18:28:44 INFO  manager.MyListener - Unable to locate element: //div[@class='dialog-container']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+18:28:45 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1724.png
+18:28:45 INFO  manager.NGListener - Failure test org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='dialog-container']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+18:28:45 INFO  TestBase - The enf of test registrationNegativeTestUserExists
+18:28:45 INFO  TestBase - Start test registrationNegativeTestWithIncorrectEmail
+18:28:45 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+18:28:45 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+18:28:45 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+18:28:45 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+18:28:46 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectEmail
+18:28:46 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+18:28:46 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+18:28:46 INFO  manager.MyListener - Start searching element by locator By.id: name
+18:28:46 INFO  manager.MyListener - The element with locator By.id: name is found
+18:28:46 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+18:28:46 INFO  manager.MyListener - The element with locator By.id: lastName is found
+18:28:47 INFO  manager.MyListener - Start searching element by locator By.id: email
+18:28:47 INFO  manager.MyListener - The element with locator By.id: email is found
+18:28:47 INFO  manager.MyListener - Start searching element by locator By.id: password
+18:28:47 INFO  manager.MyListener - The element with locator By.id: password is found
+18:28:47 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+18:28:47 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+18:28:51 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='error']
+18:28:51 INFO  manager.MyListener - Something went wrong!
+18:28:51 INFO  manager.MyListener - Unable to locate element: //div[@class='error']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='error']}
+18:28:51 INFO  manager.MyListener - Unable to locate element: //div[@class='error']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='error']}
+18:28:51 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1731.png
+18:28:51 INFO  manager.NGListener - Failure test org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='error']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='error']}
+18:28:51 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectEmail
+18:28:51 INFO  TestBase - Start test registrationNegativeTestWithIncorrectPassword
+18:28:51 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+18:28:51 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+18:28:51 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+18:28:51 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+18:28:52 INFO  manager.NGListener - Start of the test registrationNegativeTestWithIncorrectPassword
+18:28:52 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+18:28:52 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+18:28:52 INFO  manager.MyListener - Start searching element by locator By.id: name
+18:28:52 INFO  manager.MyListener - The element with locator By.id: name is found
+18:28:53 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+18:28:53 INFO  manager.MyListener - The element with locator By.id: lastName is found
+18:28:53 INFO  manager.MyListener - Start searching element by locator By.id: email
+18:28:53 INFO  manager.MyListener - The element with locator By.id: email is found
+18:28:53 INFO  manager.MyListener - Start searching element by locator By.id: password
+18:28:53 INFO  manager.MyListener - The element with locator By.id: password is found
+18:28:54 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+18:28:54 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+18:28:59 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='error']
+18:28:59 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='error'] is found
+18:29:00 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='error']
+18:29:00 INFO  manager.MyListener - The element with locator By.xpath: //div[@class='error'] is found
+18:29:00 INFO  manager.NGListener - Success test registrationNegativeTestWithIncorrectPassword
+18:29:00 INFO  TestBase - The enf of test registrationNegativeTestWithIncorrectPassword
+18:29:00 INFO  TestBase - Start test registrationPositiveTest
+18:29:00 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Logout ']
+18:29:00 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Logout '] is found
+18:29:00 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[@class ='logo']
+18:29:00 INFO  manager.MyListener - The element with locator By.xpath: //a[@class ='logo'] is found
+18:29:00 INFO  manager.NGListener - Start of the test registrationPositiveTest
+18:29:00 INFO  TestBase - registrationPositiveTest with email: joe1740@mail.com password: $Asdf1234
+18:29:00 INFO  manager.MyListener - Start searching element by locator By.xpath: //a[text()=' Sign up ']
+18:29:00 INFO  manager.MyListener - The element with locator By.xpath: //a[text()=' Sign up '] is found
+18:29:00 INFO  manager.MyListener - Start searching element by locator By.id: name
+18:29:00 INFO  manager.MyListener - The element with locator By.id: name is found
+18:29:01 INFO  manager.MyListener - Start searching element by locator By.id: lastName
+18:29:01 INFO  manager.MyListener - The element with locator By.id: lastName is found
+18:29:01 INFO  manager.MyListener - Start searching element by locator By.id: email
+18:29:01 INFO  manager.MyListener - The element with locator By.id: email is found
+18:29:01 INFO  manager.MyListener - Start searching element by locator By.id: password
+18:29:01 INFO  manager.MyListener - The element with locator By.id: password is found
+18:29:02 INFO  manager.MyListener - Start searching element by locator By.cssSelector: label[for='terms-of-use']
+18:29:02 INFO  manager.MyListener - The element with locator By.cssSelector: label[for='terms-of-use'] is found
+18:29:05 INFO  manager.MyListener - Start searching element by locator By.xpath: //button[@type='submit']
+18:29:05 INFO  manager.MyListener - The element with locator By.xpath: //button[@type='submit'] is found
+18:29:08 INFO  manager.MyListener - Start searching element by locator By.xpath: //div[@class='dialog-container']
+18:29:08 INFO  manager.MyListener - Something went wrong!
+18:29:08 INFO  manager.MyListener - Unable to locate element: //div[@class='dialog-container']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+18:29:08 INFO  manager.MyListener - Unable to locate element: //div[@class='dialog-container']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+18:29:09 INFO  manager.MyListener - This link to screenshot with error: src/test/screenshots/screenshot-1748.png
+18:29:09 INFO  manager.NGListener - Failure test org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='dialog-container']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VMDB1CS4', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17496, moz:profile: C:\Users\Lurie036\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 983dc877-8214-4459-a29f-7216a1dc7154
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+18:29:09 INFO  TestBase - The enf of test registrationPositiveTest

@@ -16,6 +16,16 @@ public class LoginTest extends TestBase{
         }
     }
 
+//    Dto - Data Transfer Object
+    @Test(dataProvider = "loginModelDto", dataProviderClass = ProviderData.class)
+    public void loginSuccessModel(User user){
+        logger.info("User: " + user.toString());
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm();
+        app.getUser().submitLogin();
+
+    }
+
     @Test
     public void loginSuccess(){
         User data = new User()
