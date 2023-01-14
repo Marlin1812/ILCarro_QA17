@@ -23,10 +23,11 @@ dependencies {
 }
 
 test {
-    useTestNG()}
+    useTestNG()
+}
 
-task tests(type:Test){
-    useTestNG() {
+task tests(type: Test){
+    useTestNG(){
         suites 'src/test/resources/testng.xml'
     }
     if(project.hasProperty('browser')){

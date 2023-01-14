@@ -1,4 +1,3 @@
-
 import manager.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
@@ -12,10 +11,9 @@ import java.lang.reflect.Method;
 
 public class TestBase {
 
-
     static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
-
     Logger logger = LoggerFactory.getLogger(TestBase.class);
+
 
     @BeforeSuite
     public void setUp(){

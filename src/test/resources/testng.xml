@@ -5,7 +5,6 @@
         <classes>
             <class name="AddNewCarTests" />
             <class name="LoginTest" />
-            <class name="RegistrationTest" />
         </classes>
     </test>
 </suite>
