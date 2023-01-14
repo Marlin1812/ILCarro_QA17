@@ -50,9 +50,9 @@ public class HelperSearch extends HelperBase{
 
     private void selectPeriodYears(String dateFrom, String dateTo) {
 
-        LocalDate startDate = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
-        LocalDate endDate = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
-        LocalDate nowDate = LocalDate.now();
+    LocalDate startDate = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+    LocalDate endDate = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+    LocalDate nowDate = LocalDate.now();
         String locatorStart = String.format("//div[.=' %s ']", startDate.getDayOfMonth());
         String locatorEnd = String.format("//div[.=' %s ']", endDate.getDayOfMonth());
 
@@ -93,14 +93,14 @@ public class HelperSearch extends HelperBase{
     }
 
     private void fillCity(String city) {
-        type(By.id("city"),city);
-        pause(3000);
-        click(By.cssSelector("div.pac-item"));
-        pause(3000);
-    }
+            type(By.id("city"),city);
+            pause(3000);
+            click(By.cssSelector("div.pac-item"));
+            pause(3000);
+        }
 
     public void submitForm() {
-        click(By.xpath("//button[@type='submit']"));
-    }
+            click(By.xpath("//button[@type='submit']"));
+        }
 
-}
+    }

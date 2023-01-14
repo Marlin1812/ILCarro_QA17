@@ -20,7 +20,7 @@ public class ApplicationManager {
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     String browser;
 
-    //    WebDriver wd;
+//    WebDriver wd;
     EventFiringWebDriver wd;
     HelperUser user;
     HelperCar car;
@@ -31,9 +31,9 @@ public class ApplicationManager {
 //        properties = new Properties();
 //    }
 
-    public ApplicationManager(String browser) {
-        properties = new Properties();
-        this.browser = browser;
+        public ApplicationManager(String browser) {
+            properties = new Properties();
+            this.browser = browser;
     }
     public void init() throws IOException {
 //        wd = new ChromeDriver();

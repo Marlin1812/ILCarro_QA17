@@ -37,25 +37,6 @@ public class HelperUser extends HelperBase{
         return wd.findElement(By.xpath("//div[@class='dialog-container']")).getText().contains("success");
     }
 
-    public boolean isNonRegisteredUserExists(){
-        WebDriverWait wait = new WebDriverWait(wd, 10);
-        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//div[@class='dialog-container']"))));
-        return wd.findElement(By.xpath("//div[@class='dialog-container']")).getText().contains("Registration failed");
-    }
-
-    public boolean isNonRegisteredWrongPassword(){
-        WebDriverWait wait = new WebDriverWait(wd, 10);
-        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//div[@class='error']"))));
-        return wd.findElement(By.xpath("//div[@class='error']")).getText().contains("Password must contain minimum 8 symbols");
-    }
-
-        public boolean isNonRegisteredWrongEmail(){
-        WebDriverWait wait = new WebDriverWait(wd, 10);
-        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//div[@class='error']"))));
-        return wd.findElement(By.xpath("//div[@class='error']")).getText().contains("Wrong email format");
-    }
-
-
     public boolean isLoggedSuccess(){
         WebDriverWait wait = new WebDriverWait(wd, 3);
 //        WebElement element = wd.findElement(
@@ -67,13 +48,8 @@ public class HelperUser extends HelperBase{
         return wd.findElement(
                 By.cssSelector(".dialog-container")).getText().contains("success");
     }
-
-
     public void logout(){
         click(By.xpath("//a[text()=' Logout ']"));
-    }
-
-    public void openStartForm(){click(By.xpath("//a[@class ='logo']"));
     }
 
     public void openLoginForm(){
@@ -102,28 +78,28 @@ public class HelperUser extends HelperBase{
     }
 
     public void fillRegistrationForm(User user) {
-        type(By.id("name"),user.getName());
+//        type(By.id("name"),user.getName());
+        type(By.id("name"),null);
         type(By.id("lastName"), user.getLastName());
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
 ////        click(By.cssSelector("label[for='terms-of-use']"));
 //        JavascriptExecutor js = (JavascriptExecutor) wd;
 //        js.executeScript("document.querySelector('#terms-of-use').click();");
-//        pause(3000);
         checkPolicy();
     }
 
     public void checkPolicy(){
         // variant 1:
-                click(By.cssSelector("label[for='terms-of-use']"));
+        //        click(By.cssSelector("label[for='terms-of-use']"));
         // variant 2:
 //        JavascriptExecutor js = (JavascriptExecutor) wd;
 //        js.executeScript("document.querySelector('#terms-of-use').click();");
-       // variant 3:
-//        Rectangle rect = wd.findElement(By.cssSelector(".checkbox-container")).getRect();
-//        int x = rect.getX() + 5;
-//        int y = rect.getY() + 1/4 * rect.getHeight();
-//        Actions actions = new Actions(wd);
-//        actions.moveByOffset(x, y).click().perform();
+        // variant 3:
+        Rectangle rect = wd.findElement(By.cssSelector(".checkbox-container")).getRect();
+        int x = rect.getX() + 5;
+        int y = rect.getY() + 1/4 * rect.getHeight();
+        Actions actions = new Actions(wd);
+        actions.moveByOffset(x, y).click().perform();
     }
 }

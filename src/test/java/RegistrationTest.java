@@ -24,7 +24,7 @@ public class RegistrationTest extends TestBase{
 //                .withPassword("$Asdf1234");
 
         logger.info("registrationPositiveTest with email: " + user.getEmail()
-                + " password: " + user.getPassword() + " name: " + user.getName() + "lastName: " + user.getLastName());
+        + " password: " + user.getPassword() + " name: " + user.getName() + "lastName: " + user.getLastName());
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
@@ -43,7 +43,7 @@ public class RegistrationTest extends TestBase{
                 .withPassword("$Asdf1234");
 
         logger.info("registrationPositiveTest with email: " + user.getEmail()
-                + " password: " + user.getPassword());
+        + " password: " + user.getPassword());
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);

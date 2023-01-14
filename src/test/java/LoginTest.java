@@ -16,7 +16,7 @@ public class LoginTest extends TestBase{
             app.getUser().logout();
         }
     }
-    // Data Transfer Object
+        // Data Transfer Object
     @Test(dataProvider = "loginModelDto", dataProviderClass = ProviderData.class)
     public void loginSuccessModel(User user){
         logger.info("User: " + user.toString());
